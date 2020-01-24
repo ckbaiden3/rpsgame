@@ -1,0 +1,32 @@
+h1 {
+  font-family: fantasy;
+}
+
+.animate {
+  animation-name: flash;
+  animation-duration: 3s;
+}
+
+@keyframes flash {
+  0% {
+    border: black;
+  }
+  50% {
+    border: green;
+  }
+  100% {
+    border: green;
+  }
+}
+
+body {
+  background-image: radial-gradient(lightblue, teal);
+  height: 100vh;
+}
+
+img {
+  justify-content: center;
+}
+
+button {
+}

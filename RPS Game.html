@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link href="RPS Game.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors!</h1>
+    <br /><br />
+    <img
+      src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
+      alt="Rock paper scissors"
+      height="300"
+      width="300"
+    />
+    <br />
+
+    <div>
+      <label>What is your name?<input id="username-input"/></label>
+      <button id="username-btn" Username>Submit</button>
+    </div>
+    <p id="username-display"></p>
+    <section id="tally">
+      <h2>Player</h2>
+      <p id="player-score">0</p>
+      <h2>Computer</h2>
+      <p id="cpu-score">0</p>
+    </section>
+
+    <div id="choice-buttons">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <p id="cpu-move">Computer's Move:</p>
+    <p id="result">Who wins?</p>
+
+    <section>
+      <ul id="history-list"></ul>
+    </section>
+
+    <script src="RPS Game.js"></script>
+  </body>
+</html>
